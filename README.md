@@ -55,3 +55,6 @@ databridge/
 ├── build.sbt
 └── README.md
 
+#Run
+curl -X POST -H "Content-Type: application/json" -d '{"data": "sample data", "dataType": "json", "encryptionKey": "secure-key", "privacyLevel": "HIGH"}' http://localhost:8080/submitData
+
