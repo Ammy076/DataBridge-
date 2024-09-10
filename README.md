@@ -44,3 +44,14 @@ Unique Use Case: Focuses on data interoperability, a critical challenge in many 
 Feasibility: Uses the Euclid SDK, which is a hackathon requirement, but keeps the implementation scope focused and achievable.
 Scalability: Designed to handle high data volumes, demonstrating the capabilities of the Hypergraph.
 Relevance: DataBridge aligns with the interests of hackathon sponsors (e.g., IBM, SIMBA Chain) in secure data handling and sharing.
+
+Project Structure:
+
+databridge/
+├── src/
+│   └── main/
+│       └── scala/
+│           └── DataBridge.scala
+├── build.sbt
+└── README.md
+
